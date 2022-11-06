@@ -1,8 +1,17 @@
-2022-11-05 08:47:16,359 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2022-11-06 09:46:47,830 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:8080
  * Running on http://192.168.1.105:8080
-2022-11-05 08:47:16,359 [33mPress CTRL+C to quit[0m
-2022-11-05 08:47:46,549 App Home
-2022-11-05 08:47:46,550 127.0.0.1 - - [05/Nov/2022 08:47:46] "GET / HTTP/1.1" 200 -
-2022-11-05 08:47:46,778 127.0.0.1 - - [05/Nov/2022 08:47:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-06 09:46:47,830 [33mPress CTRL+C to quit[0m
+2022-11-06 09:47:07,756 App Home
+2022-11-06 09:47:07,757 127.0.0.1 - - [06/Nov/2022 09:47:07] "GET / HTTP/1.1" 200 -
+2022-11-06 09:47:21,728 127.0.0.1 - - [06/Nov/2022 09:47:21] "[33mGET /pro/5/5 HTTP/1.1[0m" 404 -
+2022-11-06 09:47:50,202 Val1: 5 x Val2: 5 = <p>El resultado es: 25</p>
+2022-11-06 09:47:50,203 127.0.0.1 - - [06/Nov/2022 09:47:50] "GET /cal/pro/5/5 HTTP/1.1" 200 -
+2022-11-06 09:48:00,259 127.0.0.1 - - [06/Nov/2022 09:48:00] "[33mGET /sus/pro/5/5 HTTP/1.1[0m" 404 -
+2022-11-06 09:48:10,594 Val1: 5 - Val2: 5 = <p>El resultado es: 0</p>
+2022-11-06 09:48:10,596 127.0.0.1 - - [06/Nov/2022 09:48:10] "GET /cal/sus/5/5 HTTP/1.1" 200 -
+2022-11-06 09:48:17,461 Val1: 5 / Val2: 5 = <p>El resultado es: 1.0</p>
+2022-11-06 09:48:17,462 127.0.0.1 - - [06/Nov/2022 09:48:17] "GET /cal/div/5/5 HTTP/1.1" 200 -
+2022-11-06 09:48:26,422 Ha ocurrido un error
+2022-11-06 09:48:26,423 127.0.0.1 - - [06/Nov/2022 09:48:26] "GET /cal/div/5/0 HTTP/1.1" 200 -
